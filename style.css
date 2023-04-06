@@ -1,0 +1,168 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html{
+    font-family:"Poppins", sans-serif;
+}
+body{
+    /* margin:4rem; */
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+header{
+    display:flex;
+    padding:4rem;
+    justify-content: space-between;
+}
+.bg{
+    background-image: url("images/bg-hero-desktop.svg");
+    background-color: rgb(199, 231, 231);
+    margin:0;
+    /* background-color: blue;  */
+}
+.btn{
+    border-radius:20px;
+    margin-top:1.25rem;
+    padding:0.8rem 3rem;
+    letter-spacing:0.5px;
+    box-shadow: rgba(62, 66, 70, 0.2) 0px 8px 24px;
+}
+.btn-one{
+    color:black;
+    background-color:#fff;
+}
+.btn-two{
+    color:#fff;
+    background-color: palevioletred;
+}
+.btn-dark:hover{
+    color:#333;
+    background:#fff;
+    border:0.5px solid #333;
+}
+#main{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:0 6rem;
+    padding-right:15rem;
+    margin-bottom:10rem;
+}
+.head{
+    margin-bottom:2rem; 
+    margin-right:15rem;
+      /* margin-right:30rem; */
+    /* padding-left:6rem; */
+}
+.head p{
+    line-height:1.8rem;
+}
+#main img{
+    /* padding-left:4rem; */
+    max-width:100%;
+    height:auto;
+}
+#main h2{
+    margin-bottom:1.25rem;
+    margin-top:3rem;
+    font-weight: 1.25rem;
+    font-size: 35px;
+}
+#main p{
+    margin-bottom:2.25rem;
+}
+#container-2{
+    margin:4rem ;
+    margin-top:8rem;
+}
+.card{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border-radius:20px;
+    margin-bottom:2rem;
+    padding:4rem;
+    box-shadow: rgba(62, 66, 70, 0.2) 0px 8px 24px;
+}
+.card img{
+    max-width: 65%;
+    height:auto;
+}
+.info{
+    padding-right:6rem;
+}
+.info h2{
+    line-height: 3.25rem;
+}
+.info p{
+    line-height:1.8rem;
+    opacity: 65%;
+}
+.mini-card{
+    text-align:center;
+    justify-content:center;
+    box-shadow: rgba(62, 66, 70, 0.2) 0px 8px 24px;
+    /* margin-top:8rem; */
+    margin:8rem 25rem;
+    border-radius:20px;
+    padding-bottom:4rem;
+    margin-bottom:0;
+    position:relative;
+    bottom:-10rem;
+    background-color: #fff;
+}
+.mini-card h2{
+    padding:4rem 0rem;
+}
+#container-3{
+    background-color:aqua;
+    color:#fff;
+    padding:8rem 4rem;
+    margin-top: 4rem;
+}
+#contact{
+    display:flex;
+    margin-right:5rem;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.icons{
+    display:flex;
+    margin:2rem;
+}
+.icons p{
+    max-width:325px;
+}
+.icons img{
+    padding-right:1rem;
+}
+.list{
+    margin-right:4rem;
+}
+
+.list li{
+    text-decoration: none;
+    list-style: none;
+    line-height: 2rem;
+    padding:0.5rem;
+}
+.list a{
+    padding:0.5rem;
+}
+.list a:hover{
+    color:#fff;
+    background:palevioletred;
+    border-radius:7px;
+}
+.mini-icons{
+    font-size:2rem;
+}
+.mini-icons a{
+    margin-right:1rem;
+}
+
